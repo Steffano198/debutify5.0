@@ -24,7 +24,7 @@
     "dbtfy_instagram_feed": false,
     "dbtfy_newsletter_popup": false,
     "dbtfy_order_feedback": false,
-    "dbtfy_social_discount": true,
+    "dbtfy_social_discount": false,
     "dbtfy_wish_list": false,
     "dbtfy_back_to_top": false,
     "dbtfy_collection_filters": false,
@@ -49,7 +49,7 @@
     "dbtfy_quantity_breaks": false,
     "dbtfy_upsell_bundles": false,
     "dbtfy_upsell_popup": false,
-    "dbtfy_addtocart_animation": false,
+    "dbtfy_addtocart_animation": true,
     "dbtfy_cart_discount": false,
     "dbtfy_delivery_time": false,
     "dbtfy_discount_saved": false,
@@ -570,6 +570,15 @@
           "social_title": "",
           "show_payment_icons": true,
           "custom_credential": ""
+        }
+      },
+      "dbtfy-collection-filters": {
+        "type": "dbtfy-collection-filters",
+        "settings": {
+          "clear_label": "Clear",
+          "clear_all_label": "Clear All",
+          "hide_unavailable_options": false,
+          "visibility_tags_count": "none"
         }
       }
     },
