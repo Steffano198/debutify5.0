@@ -52,8 +52,9 @@
     "dbtfy_addtocart_animation": false,
     "dbtfy_cart_discount": false,
     "dbtfy_delivery_time": false,
-    "dbtfy_discount_saved": true,
-    "dbtfy_remove_debutify_branding": true,
+    "dbtfy_discount_saved": false,
+    "dbtfy_trust_badge": false,
+    "dbtfy_remove_debutify_branding": false,
     "dbtfy_collection_addtocart": false,
     "dbtfy_mega_menu": false,
     "dbtfy_sticky_header": false,
@@ -437,9 +438,6 @@
           "main_menu_link_list": "main-menu",
           "navigation_type": "center",
           "logo_link": true,
-          "default_logo": "shopify:\/\/shop_images\/logo_font.png",
-          "inverted_logo": "shopify:\/\/shop_images\/logo_font_white_copy.png",
-          "mobile_logo": "shopify:\/\/shop_images\/logo_font.png",
           "default_logo_svg": "",
           "inverted_logo_svg": "",
           "mobile_logo_svg": "",
@@ -577,14 +575,6 @@
     },
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    }
+    ]
   }
 }
